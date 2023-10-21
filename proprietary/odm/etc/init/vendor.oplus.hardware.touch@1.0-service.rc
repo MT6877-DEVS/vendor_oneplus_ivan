@@ -1,0 +1,13 @@
+on post-fs-data
+    chmod 0666 /mnt/vendor/persist/data/ec2_aging_data.txt
+
+service vendor.touch-1-0  /odm/bin/hw/vendor.oplus.hardware.touch@1.0-service
+    class late_start
+    user system
+    group system
+
+on boot
+    chown system system /dev/tp_misc
+
+on property:ro.boot.mode=charger
+    start vendor.touch-1-0
