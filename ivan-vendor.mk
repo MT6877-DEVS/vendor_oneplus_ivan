@@ -3820,21 +3820,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/ivan/proprietary/vendor/lib64/vendor.qti.hardware.soter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.soter@1.0.so \
     vendor/oneplus/ivan/proprietary/vendor/lib64/vendor.trustonic.tee.tui@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee.tui@1.0.so \
     vendor/oneplus/ivan/proprietary/vendor/lib64/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.0.so \
-    vendor/oneplus/ivan/proprietary/vendor/lib64/vendor.trustonic.tee@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.1.so \
-    vendor/oneplus/ivan/proprietary/vendor/odm/etc/vintf/manifest_qsqs.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_qsqs.xml \
-    vendor/oneplus/ivan/proprietary/vendor/odm/etc/vintf/manifest_ss.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_ss.xml \
-    vendor/oneplus/ivan/proprietary/vendor/odm/etc/vintf/manifest_tsts.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest_tsts.xml \
-    vendor/oneplus/ivan/proprietary/vendor/ro.prop:$(TARGET_COPY_OUT_VENDOR)/ro.prop \
-    vendor/oneplus/ivan/proprietary/vendor/rw.prop:$(TARGET_COPY_OUT_VENDOR)/rw.prop
-
+    vendor/oneplus/ivan/proprietary/vendor/lib64/vendor.trustonic.tee@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.1.so
+    
 PRODUCT_PACKAGES += \
-    EmCamera \
-    GoogleNetworkStackResOverlay \
-    GoogleTetheringResOverlay \
-    InProcessTetheringResOverlay \
-    NetworkStackInProcessResOverlay \
-    NetworkStackResOverlay \
-    TetheringResOverlay \
     vendor.oplus.hardware.appradio-V1.0-java \
     vendor.oplus.hardware.appradio-V1.1-java \
     vendor.oplus.hardware.biometrics.fingerprintpay-V1.0-java \
@@ -3859,32 +3847,6 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi.hostapd \
     android.hardware.wifi@1.0-service \
     lights-mtk-default \
-    manifest \
-    manifest_android.hardware.drm@1.3-service.clearkey \
-    manifest_android.hardware.drm@1.3-service.widevine \
-    manifest_soter \
     oplus_wifi_supplicant_device \
     power-default \
     vendor.mediatek.hardware.dplanner@2.0-service \
-    manifest_engineer \
-    manifest_engsensor \
-    manifest_nfc_pn557 \
-    manifest_oplusSensor \
-    manifest_oplus_cammidasservice \
-    manifest_oplus_charger \
-    manifest_oplus_displaypanelfeature \
-    manifest_oplus_engcamera \
-    manifest_oplus_felica \
-    manifest_oplus_fido \
-    manifest_oplus_misc \
-    manifest_oplus_nfc \
-    manifest_oplus_orms \
-    manifest_oplus_performance \
-    manifest_oplus_rpmh \
-    manifest_oplus_stability_project \
-    manifest_oplus_thermalmntcfg \
-    manifest_oplus_touch \
-    manifest_transmessage \
-    oplus_wifi_service_device \
-    vendor.oplus.hardware.hdcp@1.0-service \
-    vibrator-mtk-default
